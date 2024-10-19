@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  max-width: 1280px;
+  margin: 20px auto;
+}
+
+.navbar-logo {
+  align-items: center;
+}
+
+.navbar-logo:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbar-list a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.navbar-list li:hover {
+  color: darkslateblue;
+  cursor: pointer;
+}
+
+.navbar > #nav-check {
+  display: none;
+}
+
+.hero-container {
+  width: auto;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.photos-wrap {
+  display: flex;
+}
+
+.photos {
+  display: flex;
+  animation-name: sliderAnimation;
+  animation-duration: 70s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.photos img {
+  width: 800px;
+  height: 600px;
+  object-fit: cover;
+}
+
+@keyframes sliderAnimation {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.welcome {
+  max-width: 960px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.services {
+  background-color: #0a233c;
+  color: white;
+}
+
+.service-wrap {
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 0;
+  margin: 0 auto;
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .navbar > .nav-btn {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-top: 0.2rem;
+  }
+  .navbar > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+
+  .navbar > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid black;
+  }
+
+  .navbar > .navbar-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    background-color: white;
+    height: 0;
+    transition: all 0.3s ease-in;
+    top: 39px;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+  }
+
+  .navbar > .navbar-list > li {
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+
+  .navbar > #nav-check:checked ~ .navbar-list {
+    height: calc(100vh - 30px);
+  }
+
+  .photos img {
+    width: 400px;
+    height: 300px;
+  }
+
+  .welcome {
+    max-width: 90dvw;
+  }
+
+  .service-wrap {
+    max-width: 90dvw;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    max-width: 200px;
+  }
+}
