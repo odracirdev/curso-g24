@@ -13,7 +13,7 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">Mes</td>
       <td align="center">Sábado</td>
       <td align="center">Tarea</td>
-      <td align="center">Práctica</td>
+      <td align="center">Demo</td>
     </tr>
   </thead>
   <tbody>
@@ -21,22 +21,22 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">1</td>
       <td align="center">Septiembre</td>
       <td align="center">28</td>
-      <td align="center"><a href="/tarea-01/">Tarea 1</a></td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-01/">Tarea 1</a></td>
+      <td align="center"><a href="https://odracirdev.github.io/curso-g24/tarea-01/index.html">Ver Demo</a></td>
     </tr>
     <tr>
       <td align="center">2</td>
       <td align="center">Octubre</td>
       <td align="center">05</td>
-      <td align="center"><a href="/tarea-02/">Tarea 2</a></td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-02/">Tarea 2</a></td>
+      <td align="center"><a href="https://odracirdev.github.io/curso-g24/tarea-02/index.html">Ver Demo</a></td>
     </tr>
     <tr>
       <td align="center">3</td>
       <td align="center">Octubre</td>
       <td align="center">19</td>
-      <td align="center"><a href="/tarea-03/">Tarea 3</a></td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-03/">Tarea 3</a></td>
+      <td align="center"><a href="https://odracirdev.github.io/curso-g24/tarea-03/index.html">Ver Demo</a></td>
     </tr>
     <tr>
       <td align="center">4</td>
