@@ -42,14 +42,14 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">4</td>
       <td align="center">Octubre</td>
       <td align="center">26 <sup>1</sup></td>
-      <td align="center">-</td>
+      <td align="center"><a href="https://github.com/odracirdev/landing-banco-falabella">Tarea 4</a></td>
       <td align="center">-</td>
     </tr>
     <tr>
       <td align="center">5</td>
       <td align="center">Noviembre</td>
       <td align="center">09 <sup>2</sup></td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-05/">Tarea 5</a></td>
       <td align="center">-</td>
     </tr>
     <tr>
