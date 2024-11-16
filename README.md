@@ -56,7 +56,7 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">6</td>
       <td align="center">Noviembre</td>
       <td align="center">16</td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-06/">Tarea 6</a></td>
       <td align="center">-</td>
     </tr>
     <tr>
