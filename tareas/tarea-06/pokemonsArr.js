@@ -30,6 +30,6 @@ console.log('\nConvirtiendo texto a mayúsculas usando forEach \n')
 
 let pokeForEach = []
 
-pokemons.forEach((pokemon) => pokeForEach.push(pokemon.toLocaleUpperCase()))
+pokemons.forEach((pokemon) => pokeForEach.push(pokemon.toUpperCase()))
 
 console.log(pokeForEach)
