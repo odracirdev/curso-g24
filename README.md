@@ -63,7 +63,7 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">7</td>
       <td align="center">Noviembre</td>
       <td align="center">23</td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-07/">Tarea 7</a></td>
       <td align="center">-</td>
     </tr>
     <tr>
@@ -107,5 +107,6 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
 Acá se encuentra toda la documentación que he utilizado para llevar a cabo todas las tareas de este curso a nivel general:
 
 - [Lenguaje HTML](https://lenguajehtml.com/html)
-- [Lenguaje CSS](https://lenguajehtml.com/html)
+- [Lenguaje CSS](https://lenguajecss.com/css)
 - [MDN](https://developer.mozilla.org/es/docs/Learn)
+- [Lenguaje JS](https://lenguajejs.com/javascript/)
