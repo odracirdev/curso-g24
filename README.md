@@ -70,8 +70,8 @@ Este curso busca dar a conocer los conocimientos básicos en las tecnologías m�
       <td align="center">8</td>
       <td align="center">Noviembre</td>
       <td align="center">30</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
+      <td align="center"><a href="/tareas/tarea-08/">Tarea 8</a></td>
+      <td align="center"><a href="https://odracirdev.github.io/curso-g24/tareas/tarea-08/index.html">Ver Demo</a></td>
     </tr>
     <tr>
       <td align="center">9</td>
